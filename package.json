@@ -2,8 +2,8 @@
   "name": "uniswap",
   "description": "Uniswap Exchange Protocol",
   "version": "0.1.0",
-  "homepage": "https://uniswap.exchange",
-  "private": true,
+  "private": false,
+  "homepage": ".",
   "dependencies": {
     "@reach/dialog": "^0.2.8",
     "@reach/tooltip": "^0.2.0",
@@ -78,6 +78,7 @@
   "devDependencies": {
     "@babel/helper-call-delegate": "^7.12.1",
     "@babel/helper-regex": "^7.10.5",
+    "@types/styled-components": "^5.1.4",
     "prettier": "^1.17.0"
   }
 }
